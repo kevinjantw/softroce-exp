@@ -10,7 +10,7 @@ Download and unzip the rdma-experiment source code to directory "rdma-experiment
 https://github.com/haggaie/rdma-experiment
 
 ## Vagrant script for building two VMs
-Original Vagrant script olny builds one SoftRoCE VM.   
+Original Vagrant script only builds one SoftRoCE VM.   
 Edit the file "Vagrantfile" under directory "rdma-experiment-master" to build two SoftRoCE VMs.
 ```shell=
 # Build SoftRoCE Server and SoftRoCE Client
