@@ -1,4 +1,4 @@
-# EDCI-Softroce_Experiment_Env
+# EDCI-SoftRoCE_Experiment_Env
 Build SoftRoCE Experiment Environment on VirtualBox VMs
 
 ## Install VirtualBox and Vargant
