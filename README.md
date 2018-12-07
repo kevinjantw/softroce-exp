@@ -11,7 +11,7 @@ https://github.com/haggaie/rdma-experiment
 
 ## Vagrant script for building two VMs
 Original Vagrant script olny builds one SoftRoCE VM.   
-Edit the file "Vagrantfile" under directory "rdma-experiment-master" to support two SoftRoCE VMs.
+Edit the file "Vagrantfile" under directory "rdma-experiment-master" to build two SoftRoCE VMs.
 ```shell=
 # Build SoftRoCE Server and SoftRoCE Client
 Vagrant.configure("2") do |config|
@@ -36,7 +36,7 @@ end
 cd rdma-experiment-master
 vagrant up
 ```
-The command "vagrant up" will take a lot of time to build SoftRoCE VMs.
+The command "vagrant up" will take a lot of time to build two SoftRoCE VMs.
 
 ## Login SoftRoCE Server VM and get its IPs
 ```shell=
