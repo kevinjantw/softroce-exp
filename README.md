@@ -38,16 +38,14 @@ vagrant up
 ```
 The command "vagrant up" will take a lot of time to build two SoftRoCE VMs.
 
-## Login SoftRoCE Server VM and get its IPs
+## SSH login SoftRoCE Server VM
 ```shell=
 vagrant ssh softroce_server
-ifconfig
 ```
 
-## Login SoftRoCE Client VM and get its IPs
+## SSH login SoftRoCE Client VM
 ```shell=
 vagrant ssh softroce_client
-ifconfig
 ```
 
 ## How to configure SoftRoCE and test SoftRoCE communication
