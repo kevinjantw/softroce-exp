@@ -5,11 +5,13 @@ Build SoftRoCE Experiment Environment on VirtualBox VMs
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - A desktop virtualization system.
 * [Vagrant](https://www.vagrantup.com/downloads.html) - A script tool for managing VirtualBox VMs.
 
-## Source for building one VM and SoftRoCE packages
-https://github.com/haggaie/rdma-experiment  
-Download and unzip the rdma-experiment source to directory "rdma-experiment-master".
+## Reference source code for building VM and SoftRoCE packages
+Download and unzip the rdma-experiment source code to directory "rdma-experiment-master".  
+https://github.com/haggaie/rdma-experiment
 
-## Replace the Vagrant script for building two VMs
+## Vagrant script for building two VMs
+Original Vagrant script olny builds one SoftRoCE VM.   
+Edit the file "Vagrantfile" under directory "rdma-experiment-master" to support two SoftRoCE VMs.
 ```shell=
 # Build SoftRoCE Server and SoftRoCE Client
 Vagrant.configure("2") do |config|
