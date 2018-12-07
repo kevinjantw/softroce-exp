@@ -8,8 +8,9 @@ Build SoftRoCE Experiment Environment on VirtualBox VMs
 ## Source for building one VM and SoftRoCE packages
 https://github.com/haggaie/rdma-experiment
 
-## Replace the Vagrant script for building two VMs (SoftRoCE Server and SoftRoCE Client)
+## Replace the Vagrant script for building two VMs
 ```shell=
+# Build SoftRoCE Server and SoftRoCE Client
 Vagrant.configure("2") do |config|
     
   config.vm.define "softroce_server" do |softroce_server|    
@@ -38,7 +39,7 @@ vagrant ssh softroce_client
 ifconfig
 ```
 
-##Test SoftRoCE communication
+## How to configure SoftRoCE and test SoftRoCE communication
 https://www.systutorials.com/docs/linux/man/8-rxe_cfg/
 https://zhengjingwei.github.io/2018/01/27/Soft-RoCE-setup/
 
